@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Dashboard Evaluation Page</title>
+</head>
+<body class="bg-blue-100">
+    <!-- NAVBAR -->
+    <header class="text-white body-font bg-gray-700">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <span class="ml-3 text-xl">Memorise <mark> Free </mark></span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-grey-900">First Link</a>
+            <a class="mr-5 hover:text-grey-900">Second Link</a>
+            <a class="mr-5 hover:text-grey-900">Third Link</a>
+            <a class="mr-5 hover:text-grey-900">Fourth Link</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-700 border py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">LOGOUT</button>
+        </div>
+      </header>
+
+      <!-- DASHBOARD -->
+      <section class="text-blue-400 body-font mt-6">
+          <div class="items-center text-center">
+            
+                <div class="relative text-center">
+                    <h1 class="title-font font-medium text-xl mb-2 text-blue-400">Quick States</h1>
+                        <select id="op" class="bg-blue-100 underline">
+                            <option value="volvo" >All-time</option>
+                            <option value="saab">op-2</option>
+                            <option value="saab">op-2</option>
+                        </select>
+                </div>
+                <div class="flex text-center justify-center">
+                    <div class="p-5 ">
+                    <h2 class="title-font font-medium text-6xl text-blue-400">687</h2>
+                    <p class="leading-relaxed text-gray-500">Users</p>
+                    </div>
+                    <div class="p-5  ">
+                    <h2 class="title-font font-medium text-6xl text-blue-400">578</h2>
+                    <p class="leading-relaxed text-gray-500" >Subscribes</p>
+                    </div>
+                    <div class="p-5 ">
+                    <h2 class="title-font font-medium text-6xl text-blue-400">67</h2>
+                    <p class="leading-relaxed text-gray-500">Downloads</p>
+                    </div>
+                    <div class="p-5 ">
+                    <h2 class="title-font font-medium text-6xl text-blue-400">49.09</h2>
+                    <p class="leading-relaxed text-gray-500">Products</p>
+                    </div>
+                </div>
+
+        </div>
+      </section>
+      
+      
+      <section class="text-gray-600 body-font mt-6">
+        <div class="container mx-auto">
+          <div class="flex flex-col text-center w-full mb-1">
+            <h3 class="text-xl font-medium title-font mb-1 text-blue-400">Quick Navigation</h3>
+          </div>
+        
+        <div class="container mx-auto flex items-center justify-center ">
+            
+            <div class="p-1">
+              <div class=" items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-18 h-18 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/108x98">
+                <div class="w-full">
+                  <p class="text-blue-300 ">Video 1</p>
+                  <p class="text-blue-300 ">UI Developer</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-1 ">
+              <div class="items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-18 h-18 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/108x98">
+                <div class="w-full">
+                  <p class="text-blue-300 ">Video 2</p>
+                  <p class="text-blue-300 ">UI Developer</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-1">
+              <div class=" items-center text-center">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-18 h-18 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/108x98">
+                <div class="w-full">
+                  <p class="text-blue-300 ">Video 3</p>
+                  <p class="text-blue-300">UI Developer</p>
+                </div>
+              </div>
+            </div>
+            
+        </div>
+          <!-- search -->
+
+          <div class="flex w-full justify-center items-end  mt-6">
+            <div class=" justify-center lg:w-full xl:w-1/2 w-2/4 md:w-full ">
+                <div class="flex flex-col text-center w-full m-4">
+                    <h2 class="text-xl font-medium text-center title-font mb-1 text-blue-400">Send Notification</h2>
+                </div>
+                <div class="inline-flex w-full">
+                    <input type="text" placeholder="Type Messages Here" id="hero-field" name="hero-field" class="w-full  bg-gray-100 bg-opacity-50 rounded-l focus:ring-2 focus:ring-indigo-200 focus:bg-transparent border border-gray-300 focus:border-indigo-300 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                    <button class=" text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-r text-lg">Send</button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    
+</body>
+</html>
